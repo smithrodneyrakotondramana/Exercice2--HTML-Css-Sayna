@@ -1,0 +1,244 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900);
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Raleway, Arial, sans-serif;
+}
+/* +++++++++++++++....HEADER....+++++++++++++++++ */
+header {
+  background: url(img/header_bg.jpg);
+  height: 1000px;
+  overflow: hidden;
+}
+.main_menu {
+  position: relative;
+}
+nav {
+  margin: 0 10%;
+}
+nav ul li {
+  display: inline-block;
+  padding: 5% 2%;
+}
+nav ul li:nth-child(3) {
+  float: right;
+}
+ul li a {
+  color: #ffffff;
+  font-size: 1.2em;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-decoration: none;
+}
+#get_it {
+  color: #3d9f96;
+  text-decoration: underline;
+}
+#trait {
+  height: 1.5px;
+  background-color: rgba(90, 84, 84, 0.796);
+}
+.Sayna_logo {
+  position: absolute;
+  left: 39%;
+  top: 40%;
+}
+.new_app {
+  margin-left: 30%;
+  width: 40%;
+  padding: 5% 0 2%;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+#Promotion_of_new_app {
+  font-size: 2.5em;
+}
+#new_software {
+  color: #3d9f96;
+}
+.new_app button {
+  margin: 10%;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  font-size: 1.5em;
+  background-color: #3d9f96;
+  color: #ffffff;
+}
+button:hover {
+  background: #0169b2;
+    color: #fff;
+    transition: 0.5s;
+}
+.PC {
+  text-align: center;
+  margin-top: 30px;
+}
+.social_médias_icons_1 {
+  text-align: center;
+  background-color: #f7f7f7;
+}
+.icons {
+  padding: 5% 0 1%;
+}
+.icons a {
+  margin: 1.8%;
+}
+#description_icons {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #3d9f96;
+  font-size: 1.2em;
+  padding-bottom: 2%;
+}
+/* ...CONTENT... */
+.box1{
+  padding: 2% 25% 0;
+  width: 50%;
+}
+.check_new_app{
+  text-align: center;
+}
+#checked{
+  padding: 5%;
+  font-size: 2em;
+}
+.box2 {
+  padding: 10% 0;
+  margin: 5% 0 0;
+  background: url(img/map_bg.png) no-repeat;
+  background-size: cover;
+}
+.Awesomeness {
+  padding: 0 25%;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.bXX1,
+.bXX3 {
+  width: 25%;
+}
+.bXX2 {
+  width: 30%;
+}
+#logo_iphone {
+  position: absolute;
+  top: 0;
+  bottom: -50px;
+}
+
+.box3 {
+  padding: 5%;
+  background: #27242b;
+}
+.little_text {
+  color: #ffffff;
+  text-align: center;
+
+  position: relative;
+}
+.auteur {
+  color: #3d9f96;
+}
+
+.container_4 {
+  padding: 15%;
+  background: #f7f7f7;
+}
+#mini_title {
+  padding-bottom: 5%;
+  font-size: 1.7em;
+}
+.screenshots_img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+figcaption {
+  font-size: 1.2em;
+}
+
+.box5 {
+  margin: 5% 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.tested_img {
+  width: 50%;
+}
+.litmus_tested {
+  padding-right: 10%;
+  width: 30%;
+  font-size: 1.2em;
+}
+.box5 button,
+.box6 button {
+  margin-top: 20%;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  font-size: 1.5em;
+  background-color: #3d9f96;
+  color: #ffffff;
+}
+.box5 button:hover,
+.box6 button:hover {
+  background-color: #0169b2;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  border:none;
+}
+
+.box6 {
+  margin: 5% 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.responsive {
+  width: 34%;
+  font-size: 1.2em;
+}
+.responsive_img {
+  width: 50%;
+}
+
+.box7 {
+  padding: 5% 15%;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+}
+.sayna {
+  width: 36%;
+}
+.info{
+  margin-left: 40%;
+  margin-top: -78px
+}
+
+.contact{
+  margin-left: 75%;
+  margin-top: -39;
+
+}
+/* ...FOOTER... */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 15%;
+}
+.copyright {
+  font-size: smaller;
+}
+.social_media_icons_2 {
+  width: 25%;
+}
+.social_media_icons_2 a {
+  margin: 0 13px;
+}
